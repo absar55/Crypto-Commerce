@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "serve-static": "^1.15.0",
+    "slugify": "^1.6.5",
+    "util": "^0.12.5",
+    "web3.storage": "^4.4.0"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Upload Example</title>
+</head>
+<body>
+<form action="/add" enctype="multipart/form-data" method="post">
+    Name:<input name="title" type="text" value=""><br>
+    Description:<br><textarea name="info"></textarea>><br>
+    <input type="file" name="upload" multiple>
+    <input type="submit" value="Upload">
+</form>
+
+<!-- <p style='text-align:center;'>
+    <form action="/add" enctype="multipart/form-data" method="post">
+    <div>
+      <div style='display: inline-block;'>
+        <label for='title' style='margin-right: 10px;'>ITEM NAME:</label><input type='text' id='title' name='title' size='30' value=''/><br><br>
+        <label for='price' style='margin-right: 10px;'>PRICE:</label><input type='text' id='price' name='price' size='30' value=''/><br><br>
+        <label for="cats">Category:</label>
+        <select id="cats" name="cats">
+          <option value="1">ELECTRONICS</option>
+          <option value="2">COMPUTERS</option>
+          <option value="3">HOME & KITCHEN</option>
+          <option value="4">BEAUTY & FASHION</option>
+        </select><br><br>
+        DESCRIPTION: <textarea id="inf" rows='3' style='vertical-align:top; width:235px;'></textarea>
+      </div>
+      <div style='display:inline-block; position:absolute;'>
+        
+        <input type="file"  accept="image/png" name="image" id="file"  onchange="loadFile(event)"accept="image/png" style="display: none;"><
+        <label for="file" style="cursor: pointer;">
+        <img id='output' width=150 height=150 src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"/>
+        </label>
+        
+        
+      </div>
+      
+    </div>
+    <input type='submit' value='ADD ITEM'' id='${obj.id}' class='buybutton${(obj.instock == true) ? 1 : 2}'/>
+    </form>
+  </p> -->
+</body>
+</html>
